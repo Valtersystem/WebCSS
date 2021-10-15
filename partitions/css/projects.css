@@ -1,0 +1,30 @@
+.title_pages{
+    color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+   
+    
+    
+    
+}
+.section_flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.section_flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.img_flex{
+    max-width: 100%;
+    display: block;
+}
+

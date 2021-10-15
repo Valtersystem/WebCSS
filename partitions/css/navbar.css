@@ -1,0 +1,85 @@
+
+/*Menu de navegação*/
+.header{
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;   
+}
+
+.logo{
+    display: block;
+    margin-left: 4rem;
+    color: white;
+    
+    font-size: 30px;
+    font-family:'Poppins' sans-serif;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    margin-right: 3rem;
+}
+
+.menu li {
+    margin-left: 10px;
+    margin-right: 1rem;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Lampada */
+
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    width: 180px;
+}
+.lamp {
+    width: 100%;
+}
+.light{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translateX(-50%);
+    width:700px;
+    margin-left: -10px;
+    opacity: 0;
+   
+}
+
+.active{
+    background: green;
+}
+.active span{
+    background: #fff;
+    margin-left: 31px;
+
+}
+.on{
+    opacity: 1;
+}
+/* .off{
+    opacity: 0;
+} */
+
+.bnt-hidden{
+    top: 223px;
+    width: 119px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    left: 32px;
+}
+

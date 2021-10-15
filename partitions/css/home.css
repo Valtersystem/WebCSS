@@ -1,0 +1,28 @@
+.text-container{
+    max-width: 600px;
+    margin-left: 50%;
+    color: white;
+}
+
+.text-container h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+.text-container p{
+    font-size: 18px;
+}
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 30px;
+    border-radius: 30px;
+    
+}
+
+.text-home{
+    padding: 7%;
+}
